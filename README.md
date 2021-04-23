@@ -1,6 +1,6 @@
 # Who Wants to Be a Millionaire?
 
-[DEMO LINK](https://danylo-onishchuk.github.io/who)
+[DEMO LINK](https://danylo-onishchuk.github.io/who_tests)
 
 To run build:
 
