@@ -8,7 +8,7 @@ interface EndPageProps {
 
 export const EndPage: React.FC<EndPageProps> = ({ finalScore }) => {
   const goStart = () => {
-    window.location.href = './';
+    window.location.href = './home';
   };
 
   window.history.pushState(null, 'null', window.location.href);
