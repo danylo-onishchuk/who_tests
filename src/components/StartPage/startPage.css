@@ -1,0 +1,129 @@
+.startPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to top left, #FFF3EB 50%, #FFF 50%);
+}
+
+.startPage__picture {
+  display: block;
+  width: 624px;
+  height: 367px;
+  background: url('./hand.svg') no-repeat;
+  background-size: cover;
+  margin-left: 80px;
+}
+
+.startPage__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 80px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 116%;
+}
+
+.startPage__button {
+  width: 296px;
+  height: 64px;
+  margin-top: 64px;
+  text-align: center;
+  background: #FF8B37;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.startPage__button:hover {
+  background-color: #FFAC70;
+}
+
+.startPage__button:active {
+  background-color: #E87928;
+}
+
+@media screen and (max-width: 850px) {
+  .startPage {
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .startPage__picture {
+    width: 94%;
+    margin: 50px 0 0;
+  }
+
+  .startPage__content {
+    text-align: center;
+    width: 94%;
+    margin: 0;
+  }
+
+  .startPage__button {
+    align-self: center;
+    margin-top: 102px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .startPage__picture {
+    width: 288px;
+    height: 192px;
+  }
+
+  .startPage__content {
+    font-size: 34px;
+  }
+
+  .startPage__button {
+    width: 288px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 48px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .startPage__picture {
+    width: 936px;
+    height: 550px;
+  }
+
+  .startPage__content {
+    font-size: 84px;
+  }
+
+  .startPage__button {
+    width: 444px;
+    height: 96px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 3072px) {
+  .startPage__picture {
+    width: 1248px;
+    height: 734px;
+  }
+
+  .startPage__content {
+    font-size: 112px;
+  }
+
+  .startPage__button {
+    width: 592px;
+    height: 124px;
+    font-size: 40px;
+  }
+}

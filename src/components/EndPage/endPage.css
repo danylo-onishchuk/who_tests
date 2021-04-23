@@ -1,0 +1,147 @@
+.endPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #F5F5F7;
+}
+
+.endPage__picture {
+  display: block;
+  width: 624px;
+  height: 367px;
+  background: url('./hand.svg') no-repeat;
+  background-size: cover;
+  margin-left: 200px;
+}
+
+.endPage__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 80px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 116%;
+}
+
+  .endPage__content::before {
+    content: "Total score:";
+    font-size: 32px;
+    opacity: 0.5;
+  }
+
+.endPage__button {
+  width: 296px;
+  height: 64px;
+  margin-top: 64px;
+  background: #FF8B37;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.endPage__button:hover {
+  background-color: #FFAC70;
+}
+
+.endPage__button:active {
+  background-color: #E87928;
+}
+
+
+@media screen and (max-width: 850px) {
+  .endPage {
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .endPage__picture {
+    width: 94%;
+    margin: 0;
+  }
+
+  .endPage__content {
+    width: 94%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .endPage__button {
+    align-self: center;
+    margin-top: 102px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .endPage__picture {
+    width: 288px;
+    height: 192px;
+  }
+
+  .endPage__content {
+    font-size: 32px;
+  }
+
+  .endPage__content::before {
+    font-size: 18px;
+  }
+
+  .endPage__button {
+    width: 288px;
+    height: 48px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .endPage__picture {
+    width: 936px;
+    height: 550px;
+  }
+
+  .endPage__content {
+    font-size: 84px;
+  }
+
+  .endPage__content::before {
+    font-size: 48px;
+  }
+
+  .endPage__button {
+    width: 444px;
+    height: 96px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 3072px) {
+  .endPage__picture {
+    width: 1248;
+    height: 734px;
+  }
+
+  .endPage__content {
+    font-size: 112px;
+  }
+
+  .endPage__content::before {
+    font-size: 64px;
+  }
+
+  .endPage__button {
+    width: 592px;
+    height: 124px;
+    font-size: 40px;
+  }
+}

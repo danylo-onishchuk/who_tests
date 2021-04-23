@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "What is the official language in Great Britain?",
+    "answers": [
+      ["A", "English"],
+      ["B", "French"],
+      ["C", "Ukrainian"],
+      ["D", "Chinese"]
+    ],
+    "trueAnswers": ["English"],
+    "money": "$500"
+  },
+  {
+    "id": 2,
+    "question": "Big Ben is …",
+    "answers": [
+      ["A", "A clock"],
+      ["B", "A horse"],
+      ["C", "An animal in the zoo"],
+      ["D", "A famous name"]
+    ],
+    "trueAnswers": ["A clock"],
+    "money": "$1,000"
+  },
+  {
+    "id": 3,
+    "question": "The oldest part of London is …",
+    "answers": [
+      ["A", "The City"],
+      ["B", "Westminster"],
+      ["C", "East End"],
+      ["D", "West End"]
+    ],
+    "trueAnswers": ["The City"],
+    "money": "$2,000"
+  },
+  {
+    "id": 4,
+    "question": "Great Britain is divided into …",
+    "answers": [
+      ["A", "Three parts"],
+      ["B", "Five parts"],
+      ["C", "Four parts"],
+      ["D", "Two parts"]
+    ],
+    "trueAnswers": ["Four parts"],
+    "money": "$4,000"
+  },
+  {
+    "id": 5,
+    "question": "What is a Piccadilly Circus?",
+    "answers": [
+      ["A", "A circus"],
+      ["B", "A square"],
+      ["C", "A street"],
+      ["D", "A house"]
+    ],
+    "trueAnswers": ["A square"],
+    "money": "$8,000"
+  },
+  {
+    "id": 6,
+    "question": "What is the Tower of London now?",
+    "answers": [
+      ["A", "A prison"],
+      ["B", "A museum"],
+      ["C", "A house"],
+      ["D", "A fortress"]
+    ],
+    "trueAnswers": ["A museum"],
+    "money": "$16,000"
+  },
+  {
+    "id": 7,
+    "question": "The name of the Palace where the Queen lives is …",
+    "answers": [
+      ["A", "The Tower of London"],
+      ["B", "The White House"],
+      ["C", "The Windsor palace"],
+      ["D", "The Buckingham Palace"]
+    ],
+    "trueAnswers": ["The Buckingham Palace"],
+    "money": "$32,000"
+  },
+  {
+    "id": 8,
+    "question": "Who built the abbey church in the 11th century?",
+    "answers": [
+      ["A", "Charles Dickens"],
+      ["B", "Sir Christopher Wren"],
+      ["C", "King Edward the Confessor"],
+      ["D", "Admiral Nelson"]
+    ],
+    "trueAnswers": ["King Edward the Confessor"],
+    "money": "$64,000"
+  },
+  {
+    "id": 9,
+    "question": "Sir Christopher Wren built …",
+    "answers": [
+      ["A", "St. Paul’s cathedral"],
+      ["B", "The Tower of London"],
+      ["C", "Westminster Abbey"],
+      ["D", "The Parliament"]
+    ],
+    "trueAnswers": ["St. Paul’s cathedral"],
+    "money": "$125,000"
+  },
+  {
+    "id": 10,
+    "question": "Where are the tombs of many British kings and queens and other famous people?",
+    "answers": [
+      ["A", "In the Tower of London"],
+      ["B", "On the Cemetry"],
+      ["C", "On the river bank"],
+      ["D", "In Westminster Abbey"]
+    ],
+    "trueAnswers": ["In Westminster Abbey"],
+    "money": "$250,000"
+  },
+  {
+    "id": 11,
+    "question": "The Princess Diana was the wife of …",
+    "answers": [
+      ["A", "Prince John"],
+      ["B", "Prince Robert"],
+      ["C", "Prince Wilhelm"],
+      ["D", "Prince Charles"]
+    ],
+    "trueAnswers": ["Prince Charles"],
+    "money": "$500,000"
+  },
+  {
+    "id": 12,
+    "question": "Covent Garden is now …",
+    "answers": [
+      ["A", "A cinema"],
+      ["B", "A fruit and vegetable garden"],
+      ["C", "A theatre"],
+      ["D", "A tourist shopping centre"]
+    ],
+    "trueAnswers": ["A tourist shopping centre"],
+    "money": "$1,000,000"
+  }
+]
