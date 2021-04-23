@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/who_tests/static/css/main.6f457209.chunk.css",
+    "main.js": "/who_tests/static/js/main.8d5c0cdd.chunk.js",
+    "main.js.map": "/who_tests/static/js/main.8d5c0cdd.chunk.js.map",
+    "runtime-main.js": "/who_tests/static/js/runtime-main.5f4eef68.js",
+    "runtime-main.js.map": "/who_tests/static/js/runtime-main.5f4eef68.js.map",
+    "static/js/2.8354cf06.chunk.js": "/who_tests/static/js/2.8354cf06.chunk.js",
+    "static/js/2.8354cf06.chunk.js.map": "/who_tests/static/js/2.8354cf06.chunk.js.map",
+    "index.html": "/who_tests/index.html",
+    "static/css/main.6f457209.chunk.css.map": "/who_tests/static/css/main.6f457209.chunk.css.map",
+    "static/js/2.8354cf06.chunk.js.LICENSE.txt": "/who_tests/static/js/2.8354cf06.chunk.js.LICENSE.txt",
+    "static/media/gamePage.css": "/who_tests/static/media/burger_open.5c0069c6.svg",
+    "static/media/endPage.css": "/who_tests/static/media/hand.76f053d9.svg",
+    "static/media/answers.css": "/who_tests/static/media/rectangle-true.9e9e93c5.svg",
+    "static/media/table.css": "/who_tests/static/media/rectangle_table.802bba4f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f4eef68.js",
+    "static/js/2.8354cf06.chunk.js",
+    "static/css/main.6f457209.chunk.css",
+    "static/js/main.8d5c0cdd.chunk.js"
+  ]
+}
